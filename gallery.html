@@ -4,14 +4,7 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <style>
-        #only-header {
-            display: flex;
-            justify-content: center;
-            gap: 10px;
-            padding: 10px;
-            background-color: #f8f8f8;
-        }
-
+       
         h1 {
 
             font-size: 80px;
@@ -23,7 +16,8 @@
             font-weight: bold;
 
         }
-        .gallery:hover{
+
+        .gallery img:hover {
             cursor: pointer;
             transform: scale(1.1);
             transition: 0.5;
@@ -31,7 +25,7 @@
     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>gallery page</title>
+    <title>gallery-page</title>
 </head>
 
 <body>
@@ -49,11 +43,7 @@
                     <h1>welcome to our menu resturant</h1>
                 </header>
         </div>
-        <picture>
-            <source media="(min-width:1200px)" srcset="https://via.placeholder.com/1200x800">
-            <source media="(min-width:1200px)" srcset="https://via.placeholder.com/760x512">
-            <source media="(min-width:1200px)" srcset="https://via.placeholder.com/480x320">
-        </picture>
+
         <!--<div class="gallery">
             <li>
                 <h2>Beef burger - $5</h2>
@@ -121,6 +111,11 @@
                     <h2>fried chicken</h2>
                 </li>
                 <h3>All different checken price of each one - $15</h3>
+                <picture>
+                    <source media="(min-width:1200px)" srcset="https://via.placeholder.com/1200x800">
+                    <source media="(min-width:1200px)" srcset="https://via.placeholder.com/760x512">
+                    <source media="(min-width:1200px)" srcset="https://via.placeholder.com/480x320">
+                </picture>
                 <div class="gallery">
                     <img src="image/checkin.jpg" alt="checken" width="200px">
                     <img src="image/chicken2.jpg" alt="checken" width="200px">
