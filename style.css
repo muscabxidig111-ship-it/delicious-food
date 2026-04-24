@@ -3,7 +3,7 @@
     justify-content: center;
     gap: 15px;
     padding: 20px;
-    background-color: #e9e2e2;
+    background-color: rgb(214, 191, 162);
 
 }
 
@@ -69,5 +69,9 @@ button {
     height: 290px;
     object-fit: cover;
     border-radius: 15px;
+
+}
+ul h2,h3{
+     margin: 10px;
 
 }
