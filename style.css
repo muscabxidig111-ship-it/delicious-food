@@ -20,8 +20,6 @@ body {
 ul {
     padding: 0;
 
-
-
 }
 
 .box {
@@ -54,8 +52,9 @@ button {
     padding: 10px;
     font-weight: bold;
     margin: 2px;
-
+    
 }
+
 .gallery {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -67,4 +66,5 @@ button {
     height: 300px;
     object-fit: cover;
     border-radius: 15px;
+
 }
