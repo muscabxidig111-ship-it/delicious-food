@@ -52,12 +52,15 @@ button {
     color: rgb(8, 8, 8);
     font-size: medium;
     border-radius: 10px;
-    border: red 2px solid;
+    border: red 3px solid;
     padding: 10px;
     font-weight: bold;
     margin: 2px;
 
 }
+
+
+
 
 .gallery {
     display: grid;
