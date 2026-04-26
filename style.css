@@ -68,6 +68,11 @@ button {
     gap: 10px;
     margin: 20px;
 }
+@media(max-widith:600px){
+    .gallery{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
 
 .gallery img {
     width: 80%;
