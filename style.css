@@ -70,7 +70,7 @@ button {
 }
 
 .gallery img {
-    width: 100%;
+    width: 80%;
     height: 290px;
     object-fit: cover;
     border-radius: 15px;
@@ -96,4 +96,9 @@ h3 {
     backdrop-filter: 10px;
     font-weight: bold;
 
+}
+@media(max-widith:600px){
+    body{
+        background-color: black;
+    }
 }
